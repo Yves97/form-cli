@@ -6,6 +6,7 @@
     --color-blue: #39459b;
     --blue-fade: #0d99d7;
     --color-gray: rgb(109, 94, 94);
+    --color-red: rgb(255, 8, 0);
     --default-transition: all .2s;
 }
 /*------------------------------------*/
@@ -87,6 +88,10 @@ body{
 
 .input-group label,.radio-select label, .check-select{
     color: var(--color-white);
+}
+
+.input-group small{
+    color: var(--color-red);
 }
 
 .send-btn{
